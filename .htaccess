@@ -1,4 +1,4 @@
-#remove html file extension https://gdipesh.com.np/calculator.html
+#remove html file extension https://example.com/page.html
 # to https://example.com/page
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
