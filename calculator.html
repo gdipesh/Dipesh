@@ -14,7 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="icon" href="favicon.jpg" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6742163013224351"
@@ -26,16 +26,15 @@
 
 	box-sizing:border-box;
 	-moz-box-size:content-box;
-}
-	
-
+	font-family: 'Ubuntu', sans-serif;
+		}
 	
 	.style {
 	text-align:center;
 		max-height:auto;
 		max-width:700px;
 		margin:5%;
-		
+		margin-bottom: 200px;
 		padding:3%;
 		border-radius:4px;
 	background-image:linear-gradient(to top right, #99f7f3,50%, blue)  ;
@@ -62,7 +61,7 @@ input[type="button"]{
 	border:none;
 	color:white;
 	font-weight: bolder;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	position:static;
 	transition-duration:.5s;
 	box-shadow: 3px 3px 5px gray inset;
@@ -108,6 +107,28 @@ input[type="tel"]{
  
  
  }
+ 
+footer, .text-decoration-none{
+   text-decoration: none;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  position:sticky;
+  position: -webkit-sticky;
+  width: 100%;
+  font-weight: bold;
+  
+ }
+ .text-decoration-none{
+   text-align: center;
+ }
+ .bi-instagram{
+   
+  background: -webkit-linear-gradient( top right,#ff00e3ca, #f04e17, #ffd808);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   
+ }
   input[type="button"].sum{
   
   background-image: linear-gradient(to top,#161111, 50%, #545454);
@@ -127,8 +148,7 @@ input[type="tel"]{
   
 }
 
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { ... }
+
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -242,6 +262,16 @@ input[type="tel"]{
 			
 		</form>
 		</div>
+	  <footer class=" bg-light text-decoration-none footer py-1 btn btn-group   ">
+	      <a href="https://facebook.com/dg2060" class="text-decoration-none ">&nbsp;<i class="bi bi-facebook btn-primery  display-3 mx-2"></i> </a>
+	 	     <a href="https://instagram.com/dipeshgautam_" class="text-decoration-none ">&nbsp;<i class="bi bi-instagram btn-primery mx-2 btn-xl display-3"></i> </a>
+	       <a href="https://github.com/gdipesh" class="text-decoration-none " >&nbsp;<i class="bi bi-github btn-light rounded-circle mx-2 btn-xl display-3"></i> </a>
+	      
+	      
+	      
+	      </footer>	
+		
+		
 		<script>
 		
 			function del(){
