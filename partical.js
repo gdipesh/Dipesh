@@ -37,7 +37,7 @@
                      }
                  },
                  "size": {
-                     "value": 5,
+                     "value": 3,
                      "random": true,
                      "anim": {
                          "enable": false,
@@ -51,7 +51,7 @@
                      "distance": 150,
                      "color": "#00ff00",
                      "opacity": 0.3,
-                     "width": 2
+                     "width": 1
                  },
                  "move": {
                      "enable": true,
