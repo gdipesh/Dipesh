@@ -40,6 +40,15 @@
   -webkit-text-fill-color: transparent;
    
  }
+ 	#particles-js {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: -1;
+	}
   .fullimg{
     height: 63.7vh;
   }
@@ -48,7 +57,7 @@
   
 
       <!-- form CSS link -->
-      <link rel="stylesheet" href="form.css" >
+      <link rel="stylesheet" href="/style.css" >
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -191,7 +200,6 @@
 	
 
 		<div class="card d-block rounded mb-5 "  > 
-
 		  <img class="card-img-top" src="https://gdipesh.com.np/Durga.jpg" alt="School photo" title="Shree Durga Secondary School" >
 		  				    		    		<a href="javascript:void(0)" class="btn btn-danger d-none h2" style="position: absolute; right:0; top:0;"  onclick="hide()" id="id01"  ><h1><b>&harr;</b></h1></a>
 		  <div class="card-body ">
@@ -263,50 +271,40 @@
 		}
 		</style>
 			<div id="particles-js"></div>
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6742163013224351"
-     crossorigin="anonymous"></script>
+		
 		<style>
-	body {
-	height: 100vh;
-	background:#333;
-	}
+
+
+
 	
-	#particles-js {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	z-index: -1;
-	}
+
 	
 	</style>
 <section class="mx-auto">
   <div class="container">
     <form action="https://formspree.io/f/mqkwovlk" method="POST" id="my-form">
 
-      <div class="form-group">
+      <div class="form-group ">
         <label for="firstName"> First Name</label><br>
-        <input type="text" id="firstName" name="firstName">
+        <input type="text" id="firstName" class="form-control " name="firstName">
       </div>
 
       <div class="form-group">
         <label for="latsName">Last Name</label><br>
-        <input type="text" id="lastName" name="lastName">
+        <input type="text" id="lastName" class="form-control " name="lastName">
       </div>
 
       <div class="form-group">
         <label for="email">Email</label><br>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" class="form-control " name="email">
       </div>
 
       <div class="form-group">
         <label for="massage">Massage</label><br>
-        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+        <textarea name="massage" class="form-control " id="massage" cols="30" rows="10"></textarea>
       </div>
 
-      <button type="submit">Submit</button>
+      <button type="submit " class="btn-primary btn my-3">Submit</button>
     </form>
   </div>
   <div id="status"></div>
