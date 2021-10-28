@@ -41,6 +41,7 @@ section {
 }
 body {
   font-family: "Montserrat";
+  background: #6065d323;
 }
 .mx-auto {
   height: 100vh;
