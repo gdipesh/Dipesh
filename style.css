@@ -5,11 +5,12 @@
 }
 
 section {
-  height: 100vh;
+  max-height: 100vh;
   width: 90%;
   font-family: "Montserrat";
   background-color:lightgray;
   display: flex;
+  
   align-items: center;
   justify-content: center;
   flex-direction: column;
