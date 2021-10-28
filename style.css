@@ -89,12 +89,12 @@ textarea {
   text-align: center;
   cursor: pointer;
   margin-top: 10px;
-  transition: 0.3s ease background-color;
+  transition: 0.3s  background-color;
 }
 .btn:hover {
   background-color: rgb(214, 226, 236);
 }
-.status {
+#status {
   width: 90%;
   max-width: 500px;
   text-align: center;
@@ -102,11 +102,11 @@ textarea {
   margin: 0 auto;
   border-radius: 8px;
 }
-.status.success {
+#status.success {
   background-color: rgb(211, 250, 153);
   animation: status 4s ease forwards;
 }
-.status.error {
+#status.error {
   background-color: rgb(250, 129, 92);
   color: white;
   animation: status 4s ease forwards;
