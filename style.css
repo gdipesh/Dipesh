@@ -104,11 +104,11 @@ textarea {
   border-radius: 8px;
 }
 #status.success {
-  background-color: rgb(211, 250, 153);
+  background-color: rgb(154,217,60);
   animation: status 4s ease forwards;
 }
 #status.error {
-  background-color: rgb(250, 129, 92);
+  background-color: red;
   color: white;
   animation: status 4s ease forwards;
 }
