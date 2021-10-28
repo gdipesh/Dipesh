@@ -3,9 +3,8 @@
   <head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6742163013224351"
      crossorigin="anonymous"></script>
-<!-- <script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-</script> -->
+
+
 	    <title>Coder Dipesh </title>
     <!-- Required meta tags -->
       <meta charset="utf-8">
@@ -48,7 +47,8 @@
     
   
 
-
+      <!-- form CSS link -->
+      <link rel="stylesheet" href="form.css" >
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -284,32 +284,39 @@
 	height: 100vh;
 	z-index: -1;
 	}
+	
 	</style>
-	<form class="row g-3 my-2 mx-5 px-3 bg-success " method="post" action="mailto:gdipesh913@gmail.com?subject='fomrSubmit'" onsubmit="mailto:gdipesh913@gmail.com" enctype="text/plain">
-<dev class="form-floating">
-  <input type="text" name="fullName" class="form-control " id="floatingTextarea1"  value="" required>
-  <label for="floatingInputValue1">Full Name</label>
-</dev>
+<section>
+  <div class="container">
+    <form action="https://formspree.io/f/mqkwovlk" method="POST" id="my-form">
 
-<dev class="form-floating">
-  <input type="email" name="Email" class="form-control " id="floatingTextarea1"   required>
-  <label for="floatingInputValue1">Email</label>
-</dev>
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
 
-<dev class="form-floating">
-  <input type="text" name="Subject" class="form-control " id="floatingTextarea3"   required>
-  <label for="floatingTextarea3">subject</label>
-</dev>
-  <div class="form-floating">
-  <textarea class="form-control mx-auto" name="Massage" placeholder="Leave a massage here" id="floatingTextarea2" style="height: 200px" required ></textarea>
-  <label for="floatingTextarea2">massage</label>
-</div>
-  <div class="col-12">
-    <button type="submit" name="Submit" class="btn btn-danger mb-3">Send</button>
+      <div class="form-group">
+        <label for="latsName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
   </div>
-</form>
-
+  <div id="status"></div>
+</section>
 <!--about us end-->
+<script src="form.js"></script>
 <!-- partical js -->
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
