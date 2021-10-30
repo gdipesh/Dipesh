@@ -240,11 +240,11 @@ footer, .text-decoration-none{
 		<div class="style d-grid gap-2 d-xl-block"  >
 		<strong><a href="https://facebook.com/Dipesh.gautam.11" >By Dipesh Gautam</a></strong>
 		<form name="cal" >
-		<input type="tel" name="display"  class="outputscreen  w-75"  placeholder="0"  readonly><br><br>
+		<input type="tel" name="display" id="outputscreen" class="outputscreen  w-75"  placeholder="0"  readonly><br><br>
 		
 
 		<input type="button" class="sum btn px-4" value="C" onclick="cal.display.value=''" id="c1" >
-		<input type="button" class="sum btn  dlt px-4" value="Del" onclick="del()"   style=" background-color:#c50964;"  >
+		<input type="button" class="sum btn  dlt px-4" value="Del" onclick="del()" style=" background-color:#c50964;"  >
 
 		<input type="button" class="sum btn px-4" value="/" onclick="cal.display.value+='/'" >
 			
@@ -285,7 +285,7 @@ footer, .text-decoration-none{
 		<script>
 		
 			function del(){
-			outputscreen.value = outputscreen.value.slice(0,-1)
+			outputscreen.value=outputscreen.value.slice(0,-1)
 			}
 		</script>
 			
