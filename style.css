@@ -95,7 +95,7 @@ textarea {
 .btn:hover {
   background-color: rgb(214, 226, 236);
 }
-div> #status {
+ #status {
   width: 90%;
   max-width: 500px;
   text-align: center;
@@ -103,11 +103,11 @@ div> #status {
   margin: 0 auto;
   border-radius: 8px;
 }
-div> #status.success {
+ #status.success {
   background-color: rgb(154,217,60);
   animation: status 4s ease forwards;
 }
-div>#status.error {
+#status.error {
   background-color: red;
   color: white;
   animation: status 4s ease forwards;
