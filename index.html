@@ -56,6 +56,32 @@
   .fullimg{
     height: 63.7vh;
   }
+  div.divimg{
+    background-image: url('https://gdipesh.com.np/favicon.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: blur(.1px);
+    position: relative;
+    z-index: 1;
+    
+    background-color: rgba(0, 0, 0, 0.7);
+
+    background-position: center ;
+  }
+  div> .div-text{
+    
+   color:#000000;
+   transform: translate(0px /100px);
+   filter: blur(.2px);
+    font-weight: bold;
+    bottom: 0;
+    
+    opacity: 1 !important;
+  
+    
+    
+  }
 		</style>
     
   
@@ -76,7 +102,7 @@
   <body>
     <div id="particles-js"></div>
   	<!--   navbar start-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light  bg-light">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="https://gdipesh.com.np/">Gdipesh</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -124,41 +150,47 @@
 	
 	  
 	<!--navbar end-->
-<header>
-	<div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<!--			<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active" data-bs-interval="5000">
-				<img src="https://gdipesh.com.np/favicon.jpg" class="d-block w-100 img-fluid " alt="Developer_image">
-				<div class="carousel-caption text-info  fs-1 fw-bold d-md-block">
-					<h3>Developer</h3>
-					<p> Dipesh Gautam </p>
-				</div>
-			</div>
-			<div class="carousel-item   " data-bs-interval="2000">
-			<img src="https://gdipesh.com.np/Durga.jpg" class="d-block  w-100  fullimg" alt=" Durga Secondary School">
-				<div class="carousel-caption fs-1 fw-bold text-info d-md-block">
-					<h3>I am studying in </h3>
-					<p>Shree Durga Secondary School</p>
-				</div>
-			</div>
-			
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
-	</div>
-</header>
+<!-- <header>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel"><button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="https://gdipesh.com.np/favicon.jpg" class="d-block w-100 img-fluid " alt="Developer_image">
+        <div class="carousel-caption text-info  fs-1 fw-bold d-md-block">
+          <h3>Developer</h3>
+          <p> Dipesh Gautam </p>
+        </div>
+      </div>
+      <div class="carousel-item   " data-bs-interval="2000">
+      <img src="https://gdipesh.com.np/Durga.jpg" class="d-block  w-100  fullimg" alt=" Durga Secondary School">
+        <div class="carousel-caption fs-1 fw-bold text-info d-md-block">
+          <h3>I am studying in </h3>
+          <p>Shree Durga Secondary School</p>
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header> -->
+<header>
+<div class="container-fluid divimg text-center opacity-75">
+  
+  <div class="display-2 carousel-caption g-5 div-text opacity-100"> <center><span style="color:#ff00f2;">Developer</span><br>Dipesh Gautam</center></div>
+</div>
+  
+</header>
 <!--	About us start-->
 	<div class="container bg-warning text- py-5 my-5 text-primary text-center" >
 		<div>
