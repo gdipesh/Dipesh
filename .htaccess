@@ -8,4 +8,4 @@ RewriteRule ^([^\.]+)$ $1.html [NC, L]
 
 
 
-ErrorDocument 404  pages/error.html
+ErrorDocument 404 /error.html
