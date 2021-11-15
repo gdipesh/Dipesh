@@ -88,7 +88,7 @@ input[type="tel"]{
 }
  
  
- input[type="button"]:hover {
+ .style input[type="button"]:hover {
  	box-shadow:0px 0px 40px yellow;
  	border:1px solid #c6f090;
  	color:aqua;
@@ -282,14 +282,34 @@ footer, .text-decoration-none{
      Love test
   </div>
   <div class="row  d-flex justify-content-around align-item-justify fs-1" style="column:1;">
-    <input type="text" class="form-control  w-25"  placeholder="your name.." Required/>❤
+    <input type="text" class="form-control  w-25"  placeholder="your name.." Required/> <span class="position-absolute text-center  lovedhuk">❤</span>  
+    <style> 
+    .lovedhuk{  font-size: 20px;  
+    animation:myMove 1s infinite linear; 
+  
+    } 
+    @keyframes myMove{
+      0%{ font-size: 25px; 
+    }
+    50%{
+      font-size: 30px;
+    }
+     75%{
+      font-size: 25px;
+    }
+     50%{
+      font-size: 50px;
+    }
+    }
+    
+    </style>
     <input type="text" class="form-control w-25  " placeholder="love name.." Required/>
   </div>
   <div class="  d-grid justify-content-around align-item-center my-2">
   <input type="button" class="form-control btn btn-danger btn-xl mx-auto" onclick="myData()" value="calculate" style="width:100px;"/>
     
   </div>
-  <center>  <input type="text" class="form-control bg-light text-center my-3 w-25"  id="self" placeholder="result" /></center>
+  <center>  <input type="text" class="form-control fs-3 text-danger bg-light text-center my-3 w-25"  id="self" placeholder="result" readonly/></center>
   <div class="footer bg-danger">
     <h1 class="display-3 text-center text-light mt-5"> test your love </h1>
   </div>
