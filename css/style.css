@@ -107,7 +107,7 @@ textarea {
   background-color: rgb(154,217,60);
   animation: status 4s ease forwards;
 }
-#status .error {
+#status >.error {
   background-color: red;
   color: white;
   animation: status 4s ease forwards;
