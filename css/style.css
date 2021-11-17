@@ -9,7 +9,7 @@ section {
   max-height: 100vh;
   width: 90%;
   font-family: "Montserrat";
-  background-color:lightgray;
+  background-color:#ceefec;
   display: flex;
   
   align-items: center;
@@ -65,6 +65,7 @@ body {
 .form-group {
   width: 100%;
   margin-top: 20px;
+  color: #d3d3d335;
   font-size: 20px;
 }
 .form-group input,
@@ -94,35 +95,4 @@ textarea {
 }
 .btn:hover {
   background-color: rgb(214, 226, 236);
-}
- .status {
-  width: 90%;
-  max-width: 500px;
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
-  border-radius: 8px;
-}
- #status .success {
-  background-color: rgb(154,217,60);
-  animation: status 4s ease forwards;
-}
-.status.error {
-  background-color: red;
-  color: white;
-  animation: status 4s ease forwards;
-}
-@keyframes status {
-  0% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  90% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  100% {
-    opacity: 0;
-    pointer-events: none;
-  }
 }
