@@ -23,14 +23,7 @@
 		margin: 0;
 		padding: 0;
 		}
-		.img1{
-			margin-bottom:50%;
-	1100''	''
-		  '''/''
-		  a		}
-   body{
-     background:#6065d323;
-   }
+  		
      
        footer,.text-decoration-none{
    text-decoration: none;
@@ -268,7 +261,7 @@
 		<h1 class="h1 display-2 mx-auto my-3 py-5 text-center "> Send Feedback Or Massage !!</h1>
 		  <hr class=" mx-5 py-auto " >
 		<section class="mx-auto my-auto px-auto py-3 rounded container-fluid">
-		  <div class="container" id="contact">
+		  <div class="container" >
 		    <form action="https://formspree.io/f/mqkwovlk" method="POST" id="my-form">
 		
 		      <div class="form-group ">
@@ -298,8 +291,45 @@
 
   
   <div id="status">
+    
   </div>
 </section>
+<style>
+  		     #status {
+		  width: 90%;
+		  max-width: 500px;
+		  text-align: center;
+		  padding: 10px;
+		  background: transparent;
+		  margin: 0 auto;
+		  border-radius: 8px;
+		} */
+ #status.success {
+  background-color: rgb(154,217,60);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: red;
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+  }
+}
+
+</style>
   <footer class=" bg-light sticky-top text-decoration-none footer  btn btn-group   ">
 	      <a href="https://facebook.com/dg2060" class="text-decoration-none ">&nbsp;<i class="bi bi-facebook btn-primery btn-s display-5 mx-2"></i> </a>
 	 	     <a href="https://instagram.com/dipeshgautam_" class="text-decoration-none ">&nbsp;<i class="bi bi-instagram btn-primery mx-2 btn-s display-5"></i> </a>
