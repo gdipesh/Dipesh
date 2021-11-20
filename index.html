@@ -260,38 +260,40 @@
 		    <hr class=" mx-5" >
 		<h1 class="h1 display-2 mx-auto my-3 py-5 text-center "> Send Feedback Or Massage !!</h1>
 		  <hr class=" mx-5 py-auto " >
-		<section class="mx-auto my-auto px-auto py-3 rounded container-fluid">
-		  <div class="container" >
-		    <form action="https://formspree.io/f/mqkwovlk" method="POST" id="my-form">
-		
-		      <div class="form-group ">
-		        <label for="firstName"> Full Name</label><br>
-		        <input type="text" id="firstName" class="form-control " name="fullName">
-		      </div>
-		      <div class="form-group">
-		        <label for="email">Email</label><br>
-		        <input type="email" id="email" class="form-control " name="email">
-		      </div>
-		
-		      <div class="form-group">
-		        <label for="latsName">Subject</label><br>
-		        <input type="text" id="lastName" class="form-control " name="Subject">
-		      </div>
-		
-		
-		      <div class="form-group">
-		        <label for="massage">Massage</label><br>
-		        <textarea name="massage" class="form-control " id="massage" cols="30" rows="10"></textarea>
-		      </div>
-		      
-		      <button type="submit " class="btn-xl btn-warning btn my-3 mx-auto">Send</button>
-		    </form>
-		  </div>
-		  
 
-  
+<section class="mx-auto my-5 px-auto py-3 rounded container-fluid">
+  <div class="container" id="contact">
+    <form action="https://formspree.io/f/mqkwovlk" method="POST" id="my-form">
+
+      <div class="form-group ">
+        <label for="firstName"> Full Name</label><br>
+        <input type="text" id="firstName" class="form-control " name="fullName">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" class="form-control " name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName">Subject</label><br>
+        <input type="text" id="lastName" class="form-control " name="Subject">
+      </div>
+
+
+      <div class="form-group">
+        <label for="massage">Massage</label><br>
+        <textarea name="massage" class="form-control " id="massage" cols="30" rows="10"></textarea>
+      </div>
+      
+      <button type="submit " class="btn-xl btn-warning btn my-3 mx-auto">Send</button>
+    </form>
+  </div>
   <div id="status">
+    <div id="error" class="error"> </div>
     
+    <div id="success" class="success">
+      
+    </div>
   </div>
 </section>
 <style>
