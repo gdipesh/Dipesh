@@ -313,14 +313,35 @@
         <textarea name="massage" class="form-control " id="massage" cols="30" rows="10"></textarea>
       </div>
       
-      <input type="submit" class="btn-xl btn-info text-light btn my-3 mx-auto" value="Send">
+      <input type="submit" class="btn-xl btn-info text-light btn my-3 mx-auto" id="my-form-button" value="Send">
     </form>
   </div>
-     <script src="http://dipesh.name.np/form.js"></script>
+     <script src="https://gdipesh.com.np/contact.js"></script>
   <div id="status">
     
-      
-    </div>
+   <!--    <script>
+       var form = document.getElementById("my-form");
+       
+       async function handleSubmit(event) {
+   event.preventDefault();
+   var status = document.getElementById("status");
+   var data = new FormData(event.target);
+   fetch(event.target.action, {
+     method: form.method,
+     body: data,
+     headers: {
+         'Accept': 'application/json'
+     }
+   }).then(response => {
+     status.innerHTML = "Thanks for your submission!";
+     form.reset()
+   }).catch(error => {
+     status.innerHTML = "Oops! There was a problem "
+   });
+       }
+       form.addEventListener("submit", handleSubmit)
+   </script>
+      -->  </div>
   </div>
 </section>
 
