@@ -129,3 +129,6 @@ textarea {
     display: none;
   }
 }
+.divimg{
+  background:rgba(0,0,0,0.007);
+}
