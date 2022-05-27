@@ -34,12 +34,12 @@ var TxtType = function(el, toRotate, period) {
         delta = 500;
         }
 
-        setTimeout(function() {
+        setTimeout( ()=> {
         that.tick();
         }, delta);
     };
 
-    window.onload = function() {
+    window.onload = ()=> {
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
